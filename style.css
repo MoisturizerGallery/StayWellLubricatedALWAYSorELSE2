@@ -1,0 +1,375 @@
+body{;
+    background-color: #ccffcc;
+    cursor: url(images/cursor.png), default;
+    overflow-x: hidden;
+}
+
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  padding: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#f4aa91, #85ab85);; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#e09c85, #769776); 
+}
+
+
+
+img{
+    user-select: none;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;    
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0px;
+    mix-blend-mode: overlay;
+    font-family: sans-serif;
+    font-size: clamp(16px, 8vw, 60px);
+    margin-top: 10px;
+}
+
+.vidcontainer {
+    width: 30vw;
+    height: 30vh;
+    z-index: -1;
+}
+
+.exhibitionmobilelist {
+    color: lime;
+}
+
+.about a{
+    color: blue;
+}
+
+.about a:hover{
+    color: green;
+}
+
+.exhibitionimage {
+    width: 48%;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+/*This is for scrolling text animation*/
+
+marquee{
+    font-size: 7.3vh;
+    opacity: 10%;
+    height: 50vh;
+    margin: auto;
+    left: 0; right: 0; top: 0; bottom: 0;
+    position: absolute;
+    user-select: none;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.copyrightz {
+    color: black;
+    position: absolute;
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    right: -25px;
+    opacity: 30%;
+    margin: auto;
+    top: 467px;
+    width: 200px;
+    cursor: none;
+}
+
+.jContainer {
+    width: 960px;
+    height: 685px;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    cursor: url(images/cursor.png);    
+} 
+
+
+
+.jc {
+    width: 100%;
+    margin: auto;
+    cursor: url(images/cursor.png);
+    box-shadow: 10px 10px 50px;
+    
+}
+
+.exhibitionsContent {
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+}
+
+.exhibitionlist{
+    position: absolute;
+    transform-origin: center;
+    margin: auto; top: 25px; left: 0; bottom: 0; right: 0;
+    margin-left: 25px;
+    line-height: 1.5em;
+    padding: 10px;
+    font-size: 1em;
+    transition: 0.3s;
+    
+}
+
+.exhibitionlist a{
+    color: black;
+    background-image: linear-gradient(90deg, #f08a65, #ccffcc);
+    padding-left: 5px;
+    padding-right: 5px;
+      transition: 0.3s;
+        
+}
+
+.exhibitionlist a:hover{
+    color: red;
+    font-size: 1.5em;
+    transform
+}
+
+.exhibitionlistM{
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+.exhibitionlistM a{
+    color: yellow;
+    text-shadow: 1px 1px 2px #2E5729;
+}
+
+.exhibitionlistM a:hover{
+    color: cyan;
+}
+
+.entrancelinks{
+    line-height: 25px;
+    word-spacing: 2vw;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+    color: blue;
+}
+
+.entrancelinks a{
+    color: yellow;
+    text-shadow: 1px 1px 2px #2E5729;
+}
+
+.entrancelinks a:hover{
+    color: cyan;
+}
+
+img {
+    cursor: url(images/cursor.png);
+}
+
+a{
+    cursor: url(images/cursor-active.png), pointer;
+    text-decoration: none;
+    color: #ccffcc;
+}
+
+#titleimage {
+    width: 90vw;
+    margin-top: 10px;
+}
+
+#artistnames {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section {
+    text-align: center;
+
+}
+
+.section img {
+    width: 45vw;
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 5px;
+    margin-right: 1vw;
+        margin-left: 1vw;
+        margin-bottom: 1vw;
+}
+
+#imageandcaption {
+    color: black;
+    font-size: .8em;
+    display: inline-block;
+    margin-bottom: 0vw;
+}
+
+.btn {
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.vimeo {
+	background-color: #0dcaf0;
+}
+.youtube {
+	background-color: #dc3545;
+}
+
+
+#backbutton {
+    position: fixed;
+    bottom: 10px;
+    left: 25px;
+    z-index: 99999;
+    width: 200px;
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+
+    .jcmobileasset, jcmobilecontainer, table, th{
+        display: none;
+    }
+    
+    .copyrightzMobile {
+        display: none;
+    }
+    
+    .exhibitionlistM{
+        display: none;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1024px) {
+
+.jContainer {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    margin-top: 5%;
+    resize: both;
+    cursor: url(images/cursor.png);  
+} 
+    
+    .exhibitionlist{
+        display: none;
+    }
+    
+    .jcasset{
+        display: none;
+        
+    }
+    
+    .exhibitionlistM{
+        display: inline-block;
+    }
+    .jcmobileasset{
+        display: block;
+    }
+    
+    .jcmobilecontainer{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    #mobilebackbutton {
+        width:150px;
+        margin-left: auto;
+        margin-right: auto;"
+    }
+    
+    table{
+        width: 100%;
+        text-align: center;
+        text-shadow: 2px 2px 2px #3b4928;
+        
+    }
+    
+    th{
+        font-size: 22px;
+        width: 50%;
+        color: #ccffcc;
+        background-image: radial-gradient(#ccffcc, #f08a65);
+        opacity: 80%;
+        padding: 20px;
+        border: 20px groove #f08a65;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    
+    
+    .copyrightz {
+    display: none;
+    }
+    
+    .copyrightzMobile {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        opacity: 50%;
+        cursor: none;
+    }
+    
+    .section img {
+        width: 45vw;
+        min-width: 1px;
+    }
+
+    
+    
+    
+}
+
+
+
+#bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: -1;
+    cursor: none;
+}
