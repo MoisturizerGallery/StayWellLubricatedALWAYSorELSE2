@@ -1,0 +1,238 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:#A2A2A2;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+p{
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #808080;
+    line-height: normal
+}
+
+
+#hT {
+    color: #FF9900;
+}
+
+
+h1 {
+    font-size: 14px;
+    border-bottom: 1px solid #313131;
+    padding-bottom: 10px;
+
+    color: white;
+    border-bottom-style: solid;
+    font-weight: 300;
+    line-height: normal;
+    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    color: #FF9900;
+    margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    line-height: normal;
+
+}
+
+p a {
+    color: #A2A2A2;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #FF9900;
+}
+
+p a:active {
+    color: #FF9900;
+}
+
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #FF9900;
+}
+
+h1 a:active {
+    color: #FF9900;
+}
+
+
+
+
+.snArt {
+    width: 100%;
+    
+}
+
+.snSec {
+    padding-left: 13px;
+    padding-top: 13px;
+    display: inline-block;
+    background-color: #000000;
+    border-style: solid;
+    border-right-width: 13px;
+    border-color: #000000;
+    line-height: normal
+    
+    
+}
+
+.piece {
+    display: inline-block;
+    background-color: #000000;
+    width: 240px;
+    height: 90px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0px;
+    background
+    
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+    width: 75%;
+    min-width: 600px;
+    max-width: 1400px;
+    margin-left: 16em;
+    column-gap: 5%;
+    grid-row-gap: 15px;
+    padding-top: 10px;
+    padding-right: -900px;
+    background-color: #000000;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.artists-grid-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+    width: 55%;
+    min-width: 600px;
+    max-width: 1400px;
+    margin-left: 16em;
+    column-gap: 5%;
+    grid-row-gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    background-color: #000000;
+    padding-left: 12px;
+    justify-content: center;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.artiststatement{
+    margin: auto;
+
+    padding-right: 10px;
+    
+}
+
+
+.grid-container .vid{
+    width: 225%;
+}
+
+.grid-container .lrgimg{
+    width: 225%
+    
+}
+
+.grid-container .smallimagenext2vid{
+    margin-top: 25%;
+    
+}
+
+img, .gridcontainer {
+    width: 100%;
+}
+
+.artistpanel {
+    position: absolute;
+    left: 15px;
+    background-color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 137px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.artTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    color: #FF9900;
+    margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    line-height: normal;
+}
+
+.artistimg{
+    margin: auto;
+    height: 
+}
+
+.artistSocials{
+    color:#A2A2A2;
+    display: inline-block;
+    font-size: 120px;
+}
+
+.artistheader{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    padding-left: 13px; 
+    color: white; 
+    font-weight: 400; 
+    margin-top: -5px; 
+    padding-top: 0px ;  
+    padding-right: 10px ;
+    background-color: #000000; 
+    position: absolute; 
+    left: 13.7em; 
+    top: 140px ; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    padding-bottom: 0px; 
+    z-index: 1;
+    line-height: 0px;
+    display: inline-block
+}
+
+.artistheader h3{
+    padding-bottom: 5px;
+    color: white; display: inline-block; font-family: 'Roboto', sans-serif; font-weight: 400;
+}
+
+
+
